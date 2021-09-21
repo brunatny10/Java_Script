@@ -1,13 +1,15 @@
-const n = 5;
+
 
 /**
  * Write your code below!
  */
-
-
-for (let i = 0; i < n.length; i++) {
-    for (let j = i; j < n[i].length; j++) {
-        console.log("i=" + i + ", j=" + j);
+function draw (numberOfElements) {
+    for (let i = 0; i < numberOfElements; i++) {
+        var row = "";
+        for (let  j = 0; j <= i; j++) {
+            row = row.concat('*');
+        }
+        console.log(row);
     }
-
 }
+draw(5);
