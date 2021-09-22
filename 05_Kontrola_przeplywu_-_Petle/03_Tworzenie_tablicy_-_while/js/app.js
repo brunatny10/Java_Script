@@ -4,10 +4,9 @@ const n = 12;
 /**
  * Write your code below!
  */
-
-
-while ( numbers = 0, n <= 12, n = n + 1) {
+let i = 1;
+while (i <= n){
+    numbers.push(i);
     console.log(numbers);
-    n = 12;
+    i++;
 }
-
